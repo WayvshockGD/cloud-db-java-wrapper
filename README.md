@@ -9,7 +9,7 @@ public class Main {
     
     public static void main(String[] args) {
            APIBuilder db = new APIBuilder("key");
-           db.editOrCreate("hello", "world");
            
+           db.editOrCreate("hello", "world");   
     }
 }
